@@ -26,7 +26,7 @@ const App = () =>  {
   },[]);
 
   const memoizedName = useMemo(()=> {
-    return name ? 'Aviraaj'+counter : '';
+    return name ? 'Vishaal Mehta'+counter : '';
   },[name,counter]);
  
   //Here to return
