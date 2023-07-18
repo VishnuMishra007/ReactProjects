@@ -1,0 +1,42 @@
+.counter-container{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgba(174 169 169);;
+    box-shadow: 10px 10px 10px rgb(174 169 169);
+}
+
+.counter-value-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.button-default{
+    margin: 15px;
+    width: 141px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,119);
+}
+
+.header-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
