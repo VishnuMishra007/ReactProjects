@@ -6,7 +6,7 @@ export const Counter = () => {
   const counter = useSelector((state: IStoreState) => state.counter);
   const dispatch = useDispatch();
   const counterHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(event.currentTarget.name);
+    
     const eventType: string = event.currentTarget.name;
     switch(eventType){
         case 'increment':
